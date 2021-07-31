@@ -39,3 +39,14 @@ return a.precio - b.precio;
 
 console.log('Ordenados por menor valor');
 console.log(ordenarMenorPrecio);
+
+
+
+
+nombre = prompt('Hola! Puede ingresar el nombre por favor');
+apellido = prompt('Hola! Puede ingresar el apellido por favor');
+email = prompt('Hola! Puede ingresar el email por favor');
+telefono = prompt('Hola! Puede ingresar el telefono por favor');
+
+
+let nombreYTelefono= JSON.parse
